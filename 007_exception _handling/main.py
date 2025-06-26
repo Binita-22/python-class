@@ -1,6 +1,6 @@
 try:
-    a = int (input("Enter a number: "))
-    output = 10/a
+    a = int(input("Enter a number: "))
+    output = 10 / a
     print(f"The output of user data is:{output} ")
 except Exception:
     print("Invalid number!")
