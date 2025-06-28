@@ -24,9 +24,3 @@ print("Type of object:", type(obj))
 data = obj.__dict__
 for key, values in data.items():
     print(key, values)
-
-# Define function student_data() to print ID, name, and class if given
-def student_data(name, classes, std_id):
-
-    print("student id is: {std_id}")
-    if
