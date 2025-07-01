@@ -74,7 +74,7 @@ print_details(age=40, city="Tokyo", name="Anna")
 # Define a lambda function that takes a number and returns its square. Assign it to a
 # variable called square.
 def square(x):
-    return x * x
+    return lambda x: x * x
 
 
 print(square(6))
@@ -90,7 +90,7 @@ def double_list(numbers):
     return result
 
 
-print(double_list([1, 3, 5]))  # Output: [2, 6, 10]
+print(double_list([1, 3, 5]))
 
 
 # Write a function get_evens that takes a list of numbers and returns a new list containing
@@ -103,7 +103,7 @@ def get_evens(numbers):
     return evens
 
 
-print(get_evens([10, 15, 22, 33, 40]))  # Output: [10, 22, 40]
+print(get_evens([10, 15, 22, 33, 40]))
 
 
 # Write a function sort_by_age that takes a list of tuples (name, age) and returns a new list

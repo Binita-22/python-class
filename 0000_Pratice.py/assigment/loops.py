@@ -16,3 +16,4 @@ while data:
         data = False
     else:
         print("Invalid number! ")
+
