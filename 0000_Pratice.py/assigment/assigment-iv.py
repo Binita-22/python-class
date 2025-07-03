@@ -40,20 +40,20 @@ print(unique_chars("hello"))
 # example, swap_pairs([1, 2, 3, 4]) returns [2, 1, 4, 3], and swap_pairs([1, 2, 3])
 # returns [2, 1, 3]. Use list methods like indexing and loops.
 
-def swap_pairs(lst):
-    swapped = []  # create a new list to store the result
+# def swap_pairs(lst):
+#     swapped = []
 
-    i = 0
-    while i < len(lst):
-        if i + 1 < len(lst):
-            swapped.append(lst[i + 1])
-            swapped.append(lst[i])
-            i += 2
-        else:
-            swapped.append(lst[i])
-            i += 1
+#     i = 0
+#     while i < len(lst):
+#         if i + 1 < len(lst):
+#             swapped.append(lst[i + 1])
+#             swapped.append(lst[i])
+#             i += 2
+#         else:
+#             swapped.append(lst[i])
+#             i += 1
 
-    return swapped
+#     return swapped
 
 
 # Write a function invert_dict(d) that inverts a dictionary, making keys into values and
